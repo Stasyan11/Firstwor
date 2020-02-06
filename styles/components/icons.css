@@ -1,0 +1,22 @@
+.logo-icons {
+  background-color: #5094f2;
+  color: red;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  justify-content: center;
+  align-content: center;
+}
+.logo-icons-center {
+  font-family: SourceSansPro-Regular, ﻿SegoeWPN-Light, ﻿AdobeInvisFont,
+    ﻿MyriadPro-Regular;
+  font-size: 64.34971px;
+  color: rgba(255, 255, 255, 255);
+  color: #ffffff;
+  border-radius: 50%;
+}
+.logo-icons-center:hover,
+.logo-icons:hover {
+  background-color: goldenrod;
+  color: brown;
+}

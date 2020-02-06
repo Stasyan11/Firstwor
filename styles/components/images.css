@@ -1,0 +1,15 @@
+.layer-img {
+  width: 25px;
+  height: 63px;
+}
+
+.picture-phone {
+  width: 100%;
+  height: auto;
+}
+.button-image {
+  width: 23px;
+  height: 23px;
+  align-self: center;
+  position: relative;
+}

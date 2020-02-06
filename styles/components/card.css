@@ -1,0 +1,132 @@
+.card-content {
+  width: 78%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 33%;
+}
+.card-cercl {
+  margin: auto;
+  width: 173px;
+  height: 173px;
+  border-radius: 50%;
+  background-color: #5094f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-text {
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+.card-text > h4 {
+  font-family: SegoeWPN, ﻿SegoeWPN-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-size: 20.34971pt;
+  color: rgba(80, 148, 242, 255);
+  text-align: center;
+}
+.card-text > p {
+  font-family: SegoeWPN, ﻿SegoeWPN-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-size: 14.34971pt;
+  color: rgba(144, 144, 144, 255);
+  text-align: center;
+}
+
+@media (min-width: 480px) and (max-width: 640px) {
+  .unusfull-decoration {
+    background-image: none;
+  }
+  .card-content {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-star;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #cccccc;
+  }
+  .card-cercl {
+    margin-left: 10%;
+    width: 137px;
+    height: 137px;
+    border-radius: 50%;
+    background-color: #5094f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-text {
+    width: 60%;
+    margin: auto;
+  }
+
+  .card-text > h4 {
+    font-family: SegoeWPN, ﻿SegoeWPN-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 20.34971pt;
+    color: rgba(80, 148, 242, 255);
+    text-align: left;
+  }
+  .card-text > p {
+    font-family: SegoeWPN, ﻿SegoeWPN-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 14.34971pt;
+    color: rgba(144, 144, 144, 255);
+    text-align: left;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 480px) {
+  .unusfull-decoration {
+    background-image: none;
+  }
+  .card-content {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-star;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #cccccc;
+  }
+  .card-cercl {
+    margin: auto;
+    width: 137px;
+    height: 137px;
+    border-radius: 50%;
+    background-color: #5094f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-text {
+    margin-left: 5%;
+    margin-top: 3%;
+  }
+
+  .card-text > h4 {
+    font-family: SegoeWPN, ﻿SegoeWPN-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 20.34971pt;
+    color: rgba(80, 148, 242, 255);
+    text-align: left;
+  }
+  .card-text > p {
+    font-family: SegoeWPN, ﻿SegoeWPN-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 14.34971pt;
+    color: rgba(144, 144, 144, 255);
+    text-align: left;
+  }
+}

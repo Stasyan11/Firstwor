@@ -1,0 +1,199 @@
+.section {
+  position: relative;
+  padding: 100px 0;
+}
+
+.section-title {
+}
+.section-subtitle {
+}
+.section-description {
+}
+
+.header {
+  width: 100%;
+}
+
+.hero {
+  width: 100%;
+  height: auto;
+  background-image: url(https://oboi.ws/filters/toaster_18_11837_oboi_ochen_razmytyj_pejzazh_1152x864.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.layer-img {
+  width: 3%;
+  height: 63px;
+  align-self: center;
+}
+
+.unusfull-decoration {
+  margin-top: -2px;
+  width: 100%;
+  height: 30px;
+  background-image: url(http://djenny.com/wp-content/uploads/revslider/home-dark/slide-part1-1-2.png);
+  background-repeat: repeat-x;
+  background-size: 10px 8px;
+}
+
+@media (min-width: 641px) and (max-width: 1600px) {
+  .last-section {
+    width: 78%;
+    margin: auto;
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .bacet-block {
+    margin-top: 60px;
+    width: 50%;
+    padding-right: 10%;
+  }
+  .bacet-block > h4 {
+    font-family: SegoeWPN, ﻿SegoeWPN-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 42.34971px;
+    color: rgba(111, 113, 115, 255);
+    text-align: left;
+    margin-left: 5%;
+  }
+  .list-block {
+    width: 50%;
+    align-self: flex-end;
+  }
+  .list-block > h5 {
+    font-family: SegoeWPN, ﻿SegoeWPN-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 26.34971px;
+    color: rgba(111, 113, 115, 255);
+    text-align: left;
+  }
+  .list-block > ul {
+    font-family: SegoeWPN-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 17.35px;
+    color: rgba(144, 144, 144, 255);
+    text-align: left;
+  }
+  .list-block > ul > li {
+    padding-bottom: 5px;
+    font-size: 17.35px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 640px) {
+  .last-section {
+    width: 80%;
+    margin: auto;
+    margin-top: 12%;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .bacet-block {
+    width: 75%;
+    margin: auto;
+  }
+  .bacet-block > div {
+    width: 63%;
+    margin: auto;
+  }
+  .bacet-block > h4 {
+    font-family: SegoeWPN, ﻿SegoeWPN-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 42.34971px;
+    color: rgba(111, 113, 115, 255);
+    text-align: left;
+  }
+  .list-block {
+    width: 100%;
+    margin: auto;
+  }
+  .list-block > h5 {
+    font-family: SegoeWPN, ﻿SegoeWPN-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 32.34971px;
+    color: rgba(111, 113, 115, 255);
+    text-align: left;
+  }
+  .list-block > ul {
+    font-family: SegoeWPN-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 17.35px;
+    color: rgba(144, 144, 144, 255);
+    text-align: left;
+  }
+  .list-block > ul > li {
+    font-family: SegoeWPN-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 17.35px;
+    color: rgba(144, 144, 144, 255);
+    text-align: left;
+    padding-bottom: 5px;
+  }
+}
+.footer {
+  margin-top: 33px;
+  width: 100%;
+}
+.footer-text {
+  font-family: SegoeWPN-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-size: 15.35px;
+  color: rgba(144, 144, 144, 255);
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+@media (min-width: 80px) and (max-width: 480px) {
+  .last-section {
+    width: 80%;
+    margin: auto;
+    margin-top: 12%;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .bacet-block {
+    width: 75%;
+    margin: auto;
+  }
+  .bacet-block > div {
+    width: 63%;
+    margin: auto;
+  }
+  .bacet-block > h4 {
+    font-family: SegoeWPN, ﻿SegoeWPN-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 42.34971px;
+    color: rgba(111, 113, 115, 255);
+    text-align: left;
+  }
+  .list-block {
+    width: 100%;
+    margin: auto;
+  }
+  .list-block > h5 {
+    font-family: SegoeWPN, ﻿SegoeWPN-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 32.34971px;
+    color: rgba(111, 113, 115, 255);
+    text-align: left;
+  }
+  .list-block > ul {
+    font-family: SegoeWPN-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 17.35px;
+    color: rgba(144, 144, 144, 255);
+    text-align: left;
+  }
+  .list-block > ul > li {
+    font-family: SegoeWPN-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 17.35px;
+    color: rgba(144, 144, 144, 255);
+    text-align: left;
+    padding-bottom: 5px;
+  }
+}
+.footer {
+  margin-top: 33px;
+  width: 100%;
+}
+.footer-text {
+  font-family: SegoeWPN-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-size: 15.35px;
+  color: rgba(144, 144, 144, 255);
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
